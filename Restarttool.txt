@@ -1,0 +1,13 @@
+title Restart
+CLS
+echo What is this file called?
+set /P rstrt="name + file ending: "
+
+echo @echo off > rstarttool.bat
+echo rename "%rstrt%" "file.bat" >> rstarttool.bat
+echo timeout>NUL /T 2 /NOBREAK >> rstarttool.bat
+echo start file.bat >> rstarttool.bat
+echo del rstarttool.bat >> rstarttool.bat
+timeout>NUL /T 1 /NOBREAK
+start rstarttool.bat
+exit

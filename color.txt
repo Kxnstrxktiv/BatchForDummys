@@ -1,0 +1,9 @@
+
+    0 = Black            8 = Grey
+    1 = Blue             9 = Light blue
+    2 = Greem            A = Lime
+    3 = Turquise         B = Light turquise
+    4 = Red              C = Light red
+    5 = Purple           D = pink
+    6 = Yellow           E = Light Yellow
+    7 = light grey       F = White

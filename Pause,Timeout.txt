@@ -1,0 +1,9 @@
+timeout>NUL /T 1 /NOBREAK
+
+timeout /T 1 /NOBREAK          (not hidden)
+
+
+
+pause>NUL
+
+pause                          (not hidden)
