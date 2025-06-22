@@ -1,9 +1,0 @@
-@echo off                         (essential)
-
-echo text                         (says 'text')
-
-echo.                             (blank space)
-
-
-
-title text                        (displays 'text' in title)
